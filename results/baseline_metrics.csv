@@ -1,0 +1,5 @@
+model,PR_AUC(test),PR_AUC(cv mean),PR_AUC(cv sd),ROC_AUC,Brier,recall_rain@0.5,prec_rain@0.5,recall_norain@0.5
+XGBoost,0.713,0.708,0.008,0.869,0.109,0.5,0.746,0.951
+RandomForest,0.702,0.697,0.009,0.866,0.111,0.471,0.749,0.954
+LogReg,0.667,0.658,0.006,0.851,0.155,0.761,0.505,0.784
+DecisionTree,0.649,0.643,0.009,0.84,0.158,0.721,0.506,0.796

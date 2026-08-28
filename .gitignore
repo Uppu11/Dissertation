@@ -1,0 +1,10 @@
+# raw dataset (large file, and Kaggle's terms restrict redistribution — download it yourself, see README)
+data/*.csv
+
+# python environment / cache
+venv/
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store

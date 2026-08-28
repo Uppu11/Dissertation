@@ -1,0 +1,6 @@
+instance,top_drivers_toward/away_from_rain
+0,WindGustSpeed (+1.13); Pressure3pm (-0.86); Rainfall (+0.80)
+1,Humidity9am (+0.27); Rainfall (-0.27); MaxTemp (-0.22)
+2,Humidity3pm (-1.19); WindGustSpeed (+1.07); Pressure3pm (-0.45)
+3,Pressure3pm (+0.76); WindGustSpeed (+0.67); Pressure9am (-0.44)
+4,Pressure3pm (+0.53); Rainfall (+0.43); WindGustSpeed (-0.42)

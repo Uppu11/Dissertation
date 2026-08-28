@@ -1,0 +1,4 @@
+model,calibration,Brier,ECE,PR_AUC
+XGBoost,uncalibrated,0.109,0.005,0.713
+XGBoost,sigmoid,0.1104,0.0328,0.713
+XGBoost,isotonic,0.1089,0.004,0.713
