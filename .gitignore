@@ -1,6 +1,9 @@
 # raw dataset (large file, and Kaggle's terms restrict redistribution — download it yourself, see README)
 data/*.csv
 
+# trained model artifact (regenerate with `python3 rainfall_tool.py train` — don't commit binaries)
+model/*.joblib
+
 # python environment / cache
 venv/
 __pycache__/
@@ -8,3 +11,8 @@ __pycache__/
 
 # OS junk
 .DS_Store
+
+# streamlit logs from local runs
+streamlit_log.txt
+train_log.txt
+

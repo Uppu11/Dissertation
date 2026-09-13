@@ -1,0 +1,5 @@
+MinTemp,MaxTemp,Rainfall,Humidity9am,Humidity3pm,Pressure9am,Pressure3pm,WindGustSpeed,Temp3pm,RainToday,rain_probability,decision,top_reason
+17.2,24.1,6.4,82.0,79.0,1006.5,1004.2,54.0,22.0,1.0,0.622,ISSUE RAIN WARNING,3pm humidity raises the rain chance
+9.5,21.0,0.0,55.0,38.0,1021.0,1019.5,31.0,20.1,0.0,0.022,no warning,3pm humidity lowers the rain chance
+13.0,19.5,2.1,74.0,68.0,1012.0,1009.8,44.0,18.2,1.0,0.576,ISSUE RAIN WARNING,3pm humidity raises the rain chance
+6.8,18.4,0.0,48.0,29.0,1024.5,1023.0,26.0,17.6,0.0,0.004,no warning,3pm humidity lowers the rain chance

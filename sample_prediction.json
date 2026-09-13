@@ -1,0 +1,42 @@
+{
+  "input": {
+    "MinTemp": 17.2,
+    "MaxTemp": 24.1,
+    "Rainfall": 6.4,
+    "Humidity9am": 82,
+    "Humidity3pm": 79,
+    "Pressure9am": 1006.5,
+    "Pressure3pm": 1004.2,
+    "WindGustSpeed": 54,
+    "Temp3pm": 22.0,
+    "RainToday": 1
+  },
+  "output": {
+    "rain_probability": 0.622,
+    "decision": "ISSUE RAIN WARNING",
+    "threshold": 0.165,
+    "cost_assumption": "FN:FP = 5:1 (a missed rain-day costs 5x a false alarm)",
+    "top_reasons": [
+      {
+        "factor": "3pm humidity",
+        "value": 79.0,
+        "effect": "raises the rain chance",
+        "shap": 1.123
+      },
+      {
+        "factor": "3pm pressure",
+        "value": 1004.2,
+        "effect": "raises the rain chance",
+        "shap": 0.649
+      },
+      {
+        "factor": "wind-gust speed",
+        "value": 54.0,
+        "effect": "raises the rain chance",
+        "shap": 0.391
+      }
+    ],
+    "model": "XGBoost + isotonic calibration",
+    "note": "Probability is calibrated; decision uses the cost-optimal threshold. Reasons are per-prediction SHAP contributions on the deployed model."
+  }
+}

@@ -1,0 +1,5 @@
+MinTemp,MaxTemp,Rainfall,Humidity9am,Humidity3pm,Pressure9am,Pressure3pm,WindGustSpeed,Temp3pm,RainToday
+17.2,24.1,6.4,82,79,1006.5,1004.2,54,22.0,1
+9.5,21.0,0.0,55,38,1021.0,1019.5,31,20.1,0
+13.0,19.5,2.1,74,68,1012.0,1009.8,44,18.2,1
+6.8,18.4,0.0,48,29,1024.5,1023.0,26,17.6,0
